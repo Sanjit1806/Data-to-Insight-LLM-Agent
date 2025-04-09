@@ -1,4 +1,4 @@
-import os
+# import os
 import pandas as pd
 from vector_store import build_faiss_index
 from query_agent import ask_agent
