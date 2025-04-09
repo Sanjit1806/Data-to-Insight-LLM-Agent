@@ -29,12 +29,12 @@ def build_faiss_index(csv_path, index_path="faiss_index/index.faiss", metadata_p
     embeddings = model.encode(text_chunks, show_progress_bar=True)
     # print("Embedding shape:", embeddings.shape)
 
-    
+
     dimension = embeddings.shape[1]
     index = faiss.IndexFlatL2(dimension)
     index.add(embeddings)
 
-    
+
     os.makedirs(os.path.dirname(index_path), exist_ok=True)
     faiss.write_index(index, index_path)
 
