@@ -23,7 +23,7 @@ def generate_custom_plot(df, x_col, y_col, output_dir="plots"):
         print(f"Column '{y_col}' is not numeric or datetime. Using count instead.")
         grouped = df[x_col].value_counts()
 
-    # plot
+
     plt.figure(figsize=(8, 5))
     kind = "line" if pd.api.types.is_datetime64_any_dtype(df[y_col]) else "bar"
     grouped.plot(kind=kind, color="purple")
