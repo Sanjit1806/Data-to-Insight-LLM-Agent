@@ -1,6 +1,5 @@
 import faiss
 import pickle
-import json
 from vector_store import suppress_output
 from sentence_transformers import SentenceTransformer
 from llm_client import query_mistral
