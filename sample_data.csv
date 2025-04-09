@@ -1,0 +1,251 @@
+OrderID,ProductName,Category,OrderDate,DeliveryDate,Quantity,UnitPrice,Status
+1001,Electric Toothbrush,Grooming,2024-03-01,2024-03-05,50,25.5,Delivered
+1002,MR Scanner,Medical Equipment,2024-03-02,2024-03-12,1,250000.0,Delivered
+1003,Baby Thermometer,Health,2024-03-03,2024-03-06,200,12.99,Pending
+1004,Air Purifier,Home Appliances,2024-03-04,2024-03-10,30,120.75,Delivered
+1005,Shaver,Grooming,2024-03-05,2024-03-08,80,35.5,Delivered
+1006,MR Scanner,Medical Equipment,2024-03-06,2024-03-20,1,240000.0,Delayed
+1007,Electric Toothbrush,Grooming,2024-03-07,2024-03-11,60,25.5,Delivered
+1008,Air Purifier,Home Appliances,2024-03-08,2024-03-13,20,120.75,Pending
+1009,Shaver,Grooming,2024-03-09,2024-03-13,100,35.5,Delayed
+1010,Baby Thermometer,Health,2024-03-10,2024-03-15,150,12.99,Delivered
+1011,MR Scanner,Medical Equipment,2024-03-02,2024-03-10,300,250000.0,Delivered
+1012,Baby Thermometer,Health,2024-04-21,2024-04-23,236,12.99,Delayed
+1013,Baby Thermometer,Health,2024-04-07,2024-04-13,143,12.99,Pending
+1014,Baby Thermometer,Health,2024-03-07,2024-03-09,225,12.99,Delayed
+1015,Baby Thermometer,Health,2024-04-16,2024-04-26,23,12.99,Pending
+1016,Shaver,Grooming,2024-04-04,2024-04-08,187,35.5,Delayed
+1017,Baby Thermometer,Health,2024-04-27,2024-05-05,4,12.99,Delivered
+1018,MR Scanner,Medical Equipment,2024-03-20,2024-03-22,206,250000.0,Delayed
+1019,Shaver,Grooming,2024-04-05,2024-04-08,164,35.5,Pending
+1020,Baby Thermometer,Health,2024-04-20,2024-05-01,138,12.99,Delayed
+1021,Shaver,Grooming,2024-04-30,2024-05-08,37,35.5,Pending
+1022,MR Scanner,Medical Equipment,2024-03-12,2024-03-20,173,250000.0,Pending
+1023,Baby Thermometer,Health,2024-03-22,2024-04-04,291,12.99,Pending
+1024,MR Scanner,Medical Equipment,2024-03-25,2024-04-02,157,250000.0,Pending
+1025,MR Scanner,Medical Equipment,2024-04-29,2024-05-10,118,250000.0,Delayed
+1026,Air Purifier,Home Appliances,2024-04-22,2024-05-06,31,120.75,Pending
+1027,Air Purifier,Home Appliances,2024-03-15,2024-03-17,207,120.75,Delivered
+1028,MR Scanner,Medical Equipment,2024-03-30,2024-04-02,21,250000.0,Delivered
+1029,Shaver,Grooming,2024-04-22,2024-04-24,206,35.5,Delayed
+1030,Shaver,Grooming,2024-03-18,2024-03-29,240,35.5,Delivered
+1031,Shaver,Grooming,2024-03-05,2024-03-07,162,35.5,Pending
+1032,Electric Toothbrush,Grooming,2024-03-30,2024-04-14,162,25.5,Delayed
+1033,Baby Thermometer,Health,2024-04-14,2024-04-28,106,12.99,Delayed
+1034,MR Scanner,Medical Equipment,2024-04-09,2024-04-13,21,250000.0,Delayed
+1035,MR Scanner,Medical Equipment,2024-04-13,2024-04-21,187,250000.0,Pending
+1036,Air Purifier,Home Appliances,2024-03-10,2024-03-23,198,120.75,Delivered
+1037,MR Scanner,Medical Equipment,2024-03-18,2024-03-23,39,250000.0,Pending
+1038,Shaver,Grooming,2024-03-19,2024-04-02,291,35.5,Pending
+1039,MR Scanner,Medical Equipment,2024-04-08,2024-04-16,294,250000.0,Delayed
+1040,Electric Toothbrush,Grooming,2024-03-08,2024-03-23,211,25.5,Delayed
+1041,Baby Thermometer,Health,2024-04-11,2024-04-26,116,12.99,Delayed
+1042,Baby Thermometer,Health,2024-04-04,2024-04-13,241,12.99,Pending
+1043,MR Scanner,Medical Equipment,2024-03-14,2024-03-17,129,250000.0,Delayed
+1044,Air Purifier,Home Appliances,2024-04-05,2024-04-12,76,120.75,Delivered
+1045,Baby Thermometer,Health,2024-04-21,2024-04-24,171,12.99,Pending
+1046,MR Scanner,Medical Equipment,2024-03-28,2024-04-12,162,250000.0,Delivered
+1047,Electric Toothbrush,Grooming,2024-04-25,2024-05-05,146,25.5,Delayed
+1048,MR Scanner,Medical Equipment,2024-04-27,2024-05-11,128,250000.0,Delivered
+1049,Baby Thermometer,Health,2024-03-19,2024-03-30,154,12.99,Delivered
+1050,MR Scanner,Medical Equipment,2024-03-28,2024-04-07,264,250000.0,Delivered
+1051,Air Purifier,Home Appliances,2024-03-27,2024-04-11,58,120.75,Delivered
+1052,Electric Toothbrush,Grooming,2024-04-02,2024-04-16,243,25.5,Pending
+1053,Air Purifier,Home Appliances,2024-03-15,2024-03-21,89,120.75,Pending
+1054,Shaver,Grooming,2024-03-04,2024-03-11,114,35.5,Delayed
+1055,Air Purifier,Home Appliances,2024-03-18,2024-03-29,164,120.75,Pending
+1056,Baby Thermometer,Health,2024-04-19,2024-04-23,66,12.99,Pending
+1057,Baby Thermometer,Health,2024-03-19,2024-03-25,119,12.99,Delayed
+1058,Shaver,Grooming,2024-03-02,2024-03-11,221,35.5,Delivered
+1059,Air Purifier,Home Appliances,2024-04-27,2024-04-29,1,120.75,Delivered
+1060,MR Scanner,Medical Equipment,2024-03-16,2024-03-24,5,250000.0,Pending
+1061,Air Purifier,Home Appliances,2024-04-04,2024-04-07,67,120.75,Pending
+1062,Baby Thermometer,Health,2024-04-27,2024-04-29,118,12.99,Delayed
+1063,Electric Toothbrush,Grooming,2024-03-31,2024-04-10,243,25.5,Delivered
+1064,Shaver,Grooming,2024-04-14,2024-04-22,86,35.5,Pending
+1065,Baby Thermometer,Health,2024-03-27,2024-03-31,69,12.99,Delivered
+1066,Electric Toothbrush,Grooming,2024-04-14,2024-04-18,130,25.5,Delivered
+1067,MR Scanner,Medical Equipment,2024-04-02,2024-04-14,100,250000.0,Delivered
+1068,Air Purifier,Home Appliances,2024-04-18,2024-04-29,188,120.75,Delivered
+1069,MR Scanner,Medical Equipment,2024-03-13,2024-03-22,19,250000.0,Pending
+1070,MR Scanner,Medical Equipment,2024-04-21,2024-04-28,129,250000.0,Delayed
+1071,Air Purifier,Home Appliances,2024-04-28,2024-05-09,15,120.75,Delivered
+1072,Electric Toothbrush,Grooming,2024-04-22,2024-05-07,94,25.5,Delayed
+1073,Air Purifier,Home Appliances,2024-03-22,2024-04-06,115,120.75,Pending
+1074,Electric Toothbrush,Grooming,2024-03-07,2024-03-13,31,25.5,Delivered
+1075,Electric Toothbrush,Grooming,2024-04-13,2024-04-24,216,25.5,Delivered
+1076,Air Purifier,Home Appliances,2024-03-26,2024-04-04,134,120.75,Pending
+1077,MR Scanner,Medical Equipment,2024-04-20,2024-04-22,199,250000.0,Delivered
+1078,Baby Thermometer,Health,2024-04-01,2024-04-08,92,12.99,Delivered
+1079,Air Purifier,Home Appliances,2024-04-15,2024-04-18,57,120.75,Pending
+1080,Shaver,Grooming,2024-04-26,2024-05-02,244,35.5,Pending
+1081,Shaver,Grooming,2024-03-02,2024-03-12,37,35.5,Pending
+1082,Baby Thermometer,Health,2024-03-20,2024-03-28,169,12.99,Pending
+1083,MR Scanner,Medical Equipment,2024-03-13,2024-03-16,131,250000.0,Delayed
+1084,Air Purifier,Home Appliances,2024-03-31,2024-04-07,231,120.75,Pending
+1085,MR Scanner,Medical Equipment,2024-04-09,2024-04-20,258,250000.0,Delayed
+1086,Electric Toothbrush,Grooming,2024-04-02,2024-04-05,296,25.5,Delivered
+1087,Baby Thermometer,Health,2024-03-14,2024-03-22,57,12.99,Delayed
+1088,Shaver,Grooming,2024-04-29,2024-05-01,78,35.5,Delayed
+1089,Baby Thermometer,Health,2024-03-13,2024-03-25,13,12.99,Delivered
+1090,MR Scanner,Medical Equipment,2024-03-14,2024-03-17,290,250000.0,Delayed
+1091,Electric Toothbrush,Grooming,2024-03-14,2024-03-16,292,25.5,Delayed
+1092,Electric Toothbrush,Grooming,2024-03-01,2024-03-15,208,25.5,Delayed
+1093,Shaver,Grooming,2024-04-13,2024-04-23,137,35.5,Delivered
+1094,Shaver,Grooming,2024-03-07,2024-03-21,68,35.5,Pending
+1095,Electric Toothbrush,Grooming,2024-03-31,2024-04-05,60,25.5,Delayed
+1096,MR Scanner,Medical Equipment,2024-03-08,2024-03-18,74,250000.0,Pending
+1097,Baby Thermometer,Health,2024-04-11,2024-04-15,102,12.99,Pending
+1098,Air Purifier,Home Appliances,2024-04-07,2024-04-11,222,120.75,Delayed
+1099,Air Purifier,Home Appliances,2024-03-23,2024-04-02,43,120.75,Pending
+1100,Air Purifier,Home Appliances,2024-04-22,2024-04-29,117,120.75,Delayed
+1101,MR Scanner,Medical Equipment,2024-04-20,2024-05-05,231,250000.0,Delayed
+1102,Baby Thermometer,Health,2024-03-28,2024-04-06,31,12.99,Delayed
+1103,Baby Thermometer,Health,2024-04-23,2024-05-04,143,12.99,Delivered
+1104,MR Scanner,Medical Equipment,2024-04-03,2024-04-17,94,250000.0,Pending
+1105,Air Purifier,Home Appliances,2024-03-04,2024-03-16,172,120.75,Delayed
+1106,Shaver,Grooming,2024-04-29,2024-05-06,191,35.5,Pending
+1107,Electric Toothbrush,Grooming,2024-03-25,2024-04-06,129,25.5,Pending
+1108,Shaver,Grooming,2024-03-24,2024-04-08,92,35.5,Delivered
+1109,Baby Thermometer,Health,2024-04-18,2024-04-20,101,12.99,Pending
+1110,Shaver,Grooming,2024-04-15,2024-04-26,66,35.5,Pending
+1111,Shaver,Grooming,2024-04-25,2024-05-03,273,35.5,Delivered
+1112,Shaver,Grooming,2024-03-16,2024-03-30,238,35.5,Delayed
+1113,Shaver,Grooming,2024-03-24,2024-03-28,18,35.5,Delayed
+1114,Shaver,Grooming,2024-04-11,2024-04-13,126,35.5,Pending
+1115,Shaver,Grooming,2024-04-27,2024-05-06,143,35.5,Delayed
+1116,Baby Thermometer,Health,2024-03-17,2024-03-31,15,12.99,Delayed
+1117,MR Scanner,Medical Equipment,2024-03-16,2024-03-22,285,250000.0,Delayed
+1118,Electric Toothbrush,Grooming,2024-03-07,2024-03-20,197,25.5,Delivered
+1119,Shaver,Grooming,2024-04-18,2024-05-03,295,35.5,Delayed
+1120,Electric Toothbrush,Grooming,2024-03-21,2024-03-30,266,25.5,Delayed
+1121,Air Purifier,Home Appliances,2024-04-30,2024-05-11,154,120.75,Delayed
+1122,Shaver,Grooming,2024-03-19,2024-03-22,211,35.5,Pending
+1123,MR Scanner,Medical Equipment,2024-03-18,2024-03-30,67,250000.0,Pending
+1124,Baby Thermometer,Health,2024-03-24,2024-03-29,114,12.99,Delivered
+1125,Electric Toothbrush,Grooming,2024-04-25,2024-05-02,111,25.5,Delayed
+1126,Air Purifier,Home Appliances,2024-04-24,2024-04-30,276,120.75,Delivered
+1127,Electric Toothbrush,Grooming,2024-03-27,2024-04-03,75,25.5,Delivered
+1128,MR Scanner,Medical Equipment,2024-04-09,2024-04-24,203,250000.0,Delivered
+1129,Air Purifier,Home Appliances,2024-04-16,2024-04-22,154,120.75,Pending
+1130,Shaver,Grooming,2024-03-28,2024-04-08,43,35.5,Delivered
+1131,Baby Thermometer,Health,2024-03-22,2024-04-03,286,12.99,Delayed
+1132,Shaver,Grooming,2024-03-17,2024-03-22,89,35.5,Delivered
+1133,MR Scanner,Medical Equipment,2024-03-09,2024-03-22,188,250000.0,Pending
+1134,Baby Thermometer,Health,2024-03-30,2024-04-03,15,12.99,Delayed
+1135,Shaver,Grooming,2024-03-05,2024-03-15,284,35.5,Delayed
+1136,MR Scanner,Medical Equipment,2024-03-03,2024-03-16,124,250000.0,Pending
+1137,Electric Toothbrush,Grooming,2024-03-24,2024-03-26,209,25.5,Delivered
+1138,Air Purifier,Home Appliances,2024-04-26,2024-05-03,119,120.75,Pending
+1139,Baby Thermometer,Health,2024-03-07,2024-03-22,59,12.99,Pending
+1140,Shaver,Grooming,2024-03-12,2024-03-22,163,35.5,Pending
+1141,MR Scanner,Medical Equipment,2024-03-28,2024-03-31,12,250000.0,Delivered
+1142,Shaver,Grooming,2024-03-10,2024-03-18,117,35.5,Delayed
+1143,MR Scanner,Medical Equipment,2024-03-01,2024-03-11,12,250000.0,Pending
+1144,MR Scanner,Medical Equipment,2024-04-14,2024-04-21,114,250000.0,Pending
+1145,Shaver,Grooming,2024-03-14,2024-03-16,297,35.5,Delayed
+1146,Baby Thermometer,Health,2024-04-23,2024-05-05,250,12.99,Delayed
+1147,Shaver,Grooming,2024-04-22,2024-04-30,174,35.5,Pending
+1148,Air Purifier,Home Appliances,2024-04-19,2024-04-25,201,120.75,Pending
+1149,MR Scanner,Medical Equipment,2024-04-12,2024-04-15,299,250000.0,Delayed
+1150,MR Scanner,Medical Equipment,2024-03-11,2024-03-18,87,250000.0,Delivered
+1151,Shaver,Grooming,2024-04-28,2024-05-07,8,35.5,Delayed
+1152,Electric Toothbrush,Grooming,2024-03-20,2024-04-01,101,25.5,Delivered
+1153,Baby Thermometer,Health,2024-04-28,2024-05-04,100,12.99,Pending
+1154,Shaver,Grooming,2024-03-25,2024-04-03,222,35.5,Delayed
+1155,Shaver,Grooming,2024-03-01,2024-03-07,211,35.5,Pending
+1156,Baby Thermometer,Health,2024-04-06,2024-04-09,214,12.99,Delayed
+1157,Baby Thermometer,Health,2024-03-15,2024-03-25,82,12.99,Delayed
+1158,Baby Thermometer,Health,2024-04-27,2024-05-01,60,12.99,Delayed
+1159,MR Scanner,Medical Equipment,2024-04-14,2024-04-19,246,250000.0,Delayed
+1160,Electric Toothbrush,Grooming,2024-03-09,2024-03-14,153,25.5,Pending
+1161,Baby Thermometer,Health,2024-04-08,2024-04-22,30,12.99,Delivered
+1162,Baby Thermometer,Health,2024-04-03,2024-04-17,109,12.99,Pending
+1163,Shaver,Grooming,2024-04-24,2024-05-05,97,35.5,Pending
+1164,Air Purifier,Home Appliances,2024-03-09,2024-03-14,150,120.75,Pending
+1165,Baby Thermometer,Health,2024-04-24,2024-04-28,216,12.99,Delayed
+1166,Baby Thermometer,Health,2024-03-28,2024-04-05,182,12.99,Delivered
+1167,Electric Toothbrush,Grooming,2024-03-18,2024-03-22,197,25.5,Delivered
+1168,MR Scanner,Medical Equipment,2024-04-14,2024-04-28,298,250000.0,Delayed
+1169,Shaver,Grooming,2024-03-05,2024-03-13,168,35.5,Pending
+1170,Shaver,Grooming,2024-04-14,2024-04-27,205,35.5,Delivered
+1171,Shaver,Grooming,2024-04-02,2024-04-06,152,35.5,Pending
+1172,MR Scanner,Medical Equipment,2024-03-05,2024-03-18,11,250000.0,Delivered
+1173,MR Scanner,Medical Equipment,2024-03-24,2024-03-30,191,250000.0,Pending
+1174,Baby Thermometer,Health,2024-03-23,2024-04-02,231,12.99,Delayed
+1175,Baby Thermometer,Health,2024-03-26,2024-04-04,39,12.99,Delayed
+1176,Electric Toothbrush,Grooming,2024-03-06,2024-03-15,71,25.5,Delivered
+1177,Electric Toothbrush,Grooming,2024-03-20,2024-04-02,130,25.5,Delayed
+1178,MR Scanner,Medical Equipment,2024-03-29,2024-04-01,19,250000.0,Pending
+1179,MR Scanner,Medical Equipment,2024-04-04,2024-04-13,293,250000.0,Pending
+1180,Baby Thermometer,Health,2024-03-21,2024-03-23,226,12.99,Pending
+1181,Baby Thermometer,Health,2024-03-26,2024-04-10,250,12.99,Pending
+1182,Air Purifier,Home Appliances,2024-04-13,2024-04-22,58,120.75,Delivered
+1183,MR Scanner,Medical Equipment,2024-03-20,2024-03-28,49,250000.0,Pending
+1184,Electric Toothbrush,Grooming,2024-04-09,2024-04-11,143,25.5,Delivered
+1185,Shaver,Grooming,2024-03-04,2024-03-06,274,35.5,Pending
+1186,Electric Toothbrush,Grooming,2024-03-12,2024-03-27,160,25.5,Delayed
+1187,Baby Thermometer,Health,2024-04-22,2024-04-28,168,12.99,Delivered
+1188,MR Scanner,Medical Equipment,2024-03-15,2024-03-17,57,250000.0,Delayed
+1189,Baby Thermometer,Health,2024-03-01,2024-03-16,50,12.99,Delivered
+1190,Electric Toothbrush,Grooming,2024-03-22,2024-03-28,122,25.5,Delayed
+1191,Baby Thermometer,Health,2024-03-03,2024-03-09,102,12.99,Pending
+1192,Baby Thermometer,Health,2024-03-25,2024-04-06,34,12.99,Delayed
+1193,MR Scanner,Medical Equipment,2024-04-07,2024-04-19,248,250000.0,Pending
+1194,Shaver,Grooming,2024-04-22,2024-05-04,82,35.5,Delayed
+1195,Electric Toothbrush,Grooming,2024-04-27,2024-04-29,24,25.5,Delivered
+1196,MR Scanner,Medical Equipment,2024-04-14,2024-04-22,16,250000.0,Pending
+1197,Baby Thermometer,Health,2024-03-21,2024-03-31,70,12.99,Delayed
+1198,MR Scanner,Medical Equipment,2024-04-08,2024-04-16,223,250000.0,Delayed
+1199,Air Purifier,Home Appliances,2024-04-03,2024-04-10,210,120.75,Delivered
+1200,Electric Toothbrush,Grooming,2024-03-28,2024-04-04,298,25.5,Delayed
+1201,Electric Toothbrush,Grooming,2024-04-25,2024-05-01,11,25.5,Delivered
+1202,Shaver,Grooming,2024-03-16,2024-03-23,226,35.5,Delivered
+1203,Electric Toothbrush,Grooming,2024-04-06,2024-04-10,70,25.5,Delivered
+1204,MR Scanner,Medical Equipment,2024-03-31,2024-04-13,244,250000.0,Delivered
+1205,Shaver,Grooming,2024-04-07,2024-04-09,11,35.5,Delivered
+1206,MR Scanner,Medical Equipment,2024-03-29,2024-04-04,266,250000.0,Pending
+1207,Baby Thermometer,Health,2024-03-23,2024-03-28,57,12.99,Delayed
+1208,Baby Thermometer,Health,2024-04-28,2024-05-08,253,12.99,Delayed
+1209,Baby Thermometer,Health,2024-03-26,2024-03-31,269,12.99,Delayed
+1210,Electric Toothbrush,Grooming,2024-04-02,2024-04-07,105,25.5,Delayed
+1211,Electric Toothbrush,Grooming,2024-03-06,2024-03-20,103,25.5,Delayed
+1212,Electric Toothbrush,Grooming,2024-04-16,2024-05-01,9,25.5,Pending
+1213,Air Purifier,Home Appliances,2024-04-08,2024-04-20,56,120.75,Pending
+1214,Baby Thermometer,Health,2024-03-23,2024-04-06,152,12.99,Pending
+1215,Baby Thermometer,Health,2024-03-26,2024-04-10,227,12.99,Delivered
+1216,Shaver,Grooming,2024-03-05,2024-03-16,52,35.5,Delayed
+1217,Electric Toothbrush,Grooming,2024-04-19,2024-04-23,36,25.5,Pending
+1218,Electric Toothbrush,Grooming,2024-04-24,2024-05-01,286,25.5,Pending
+1219,Shaver,Grooming,2024-04-23,2024-05-01,275,35.5,Pending
+1220,Shaver,Grooming,2024-04-25,2024-04-27,294,35.5,Delayed
+1221,Baby Thermometer,Health,2024-04-03,2024-04-13,187,12.99,Delivered
+1222,MR Scanner,Medical Equipment,2024-03-09,2024-03-15,282,250000.0,Delayed
+1223,Shaver,Grooming,2024-04-04,2024-04-18,132,35.5,Delayed
+1224,Electric Toothbrush,Grooming,2024-03-14,2024-03-22,198,25.5,Pending
+1225,Air Purifier,Home Appliances,2024-03-09,2024-03-15,84,120.75,Delayed
+1226,MR Scanner,Medical Equipment,2024-04-27,2024-05-12,183,250000.0,Pending
+1227,MR Scanner,Medical Equipment,2024-04-18,2024-05-01,243,250000.0,Pending
+1228,Air Purifier,Home Appliances,2024-03-20,2024-03-30,195,120.75,Delivered
+1229,Baby Thermometer,Health,2024-04-01,2024-04-13,225,12.99,Pending
+1230,MR Scanner,Medical Equipment,2024-03-16,2024-03-29,231,250000.0,Delayed
+1231,MR Scanner,Medical Equipment,2024-04-01,2024-04-16,111,250000.0,Delivered
+1232,MR Scanner,Medical Equipment,2024-03-27,2024-04-10,247,250000.0,Delivered
+1233,Shaver,Grooming,2024-04-14,2024-04-24,229,35.5,Pending
+1234,Shaver,Grooming,2024-03-29,2024-03-31,156,35.5,Pending
+1235,Shaver,Grooming,2024-03-18,2024-03-24,190,35.5,Delayed
+1236,Air Purifier,Home Appliances,2024-04-14,2024-04-22,254,120.75,Delayed
+1237,Air Purifier,Home Appliances,2024-04-15,2024-04-26,264,120.75,Delivered
+1238,MR Scanner,Medical Equipment,2024-04-21,2024-05-05,95,250000.0,Pending
+1239,MR Scanner,Medical Equipment,2024-04-22,2024-04-24,209,250000.0,Delayed
+1240,MR Scanner,Medical Equipment,2024-04-05,2024-04-09,290,250000.0,Delayed
+1241,MR Scanner,Medical Equipment,2024-04-27,2024-04-30,133,250000.0,Delayed
+1242,Air Purifier,Home Appliances,2024-04-04,2024-04-18,238,120.75,Delivered
+1243,Electric Toothbrush,Grooming,2024-04-03,2024-04-08,272,25.5,Pending
+1244,Baby Thermometer,Health,2024-04-18,2024-04-24,262,12.99,Pending
+1245,Baby Thermometer,Health,2024-04-19,2024-04-30,150,12.99,Pending
+1246,MR Scanner,Medical Equipment,2024-04-21,2024-04-28,188,250000.0,Delayed
+1247,Electric Toothbrush,Grooming,2024-04-02,2024-04-08,138,25.5,Delayed
+1248,Air Purifier,Home Appliances,2024-03-17,2024-03-25,137,120.75,Delayed
+1249,Baby Thermometer,Health,2024-04-29,2024-05-14,171,12.99,Delayed
+1250,Electric Toothbrush,Grooming,2024-03-09,2024-03-11,73,25.5,Pending
