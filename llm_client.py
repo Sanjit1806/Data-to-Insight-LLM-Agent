@@ -13,7 +13,6 @@ HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"}
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def query_mistral(prompt: str, max_new_tokens: int = 300, temperature: float = 0.7) -> str:
-    """Send a prompt to Mistral LLM via Hugging Face API and return the response."""
     
     payload = {
         "inputs": prompt,
