@@ -1,4 +1,4 @@
-# Made with the assistance of GPT
+# Made with the assistance of GPT-4o
 import faiss
 import pickle
 import shutil
