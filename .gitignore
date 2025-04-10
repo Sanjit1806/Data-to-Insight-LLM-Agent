@@ -1,3 +1,4 @@
 __pycache__/
 models/all-MiniLM-L6-v2
 *.pyc 
+.venv

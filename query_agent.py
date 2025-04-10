@@ -10,7 +10,7 @@ def load_faiss_index(index_path="faiss_index/index.faiss", metadata_path="faiss_
         metadata = pickle.load(f)
     return index, metadata
 
-def search_similar_chunks(question, model, index, metadata, k=100):
+def search_similar_chunks(question, model, index, metadata, k=250):
     question_embedding = model.encode([question])
     _, indices = index.search(question_embedding, k)
     return [metadata[i] for i in indices[0]]
