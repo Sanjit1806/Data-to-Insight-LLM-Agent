@@ -1,4 +1,6 @@
 # import os
+import faiss
+import pickle
 import pandas as pd
 from vector_store import build_faiss_index
 from query_agent import ask_agent
@@ -10,6 +12,10 @@ def run_agent():
 
     print("\nStep 1: Building vector DB")
     build_faiss_index(csv_path)
+
+    index = faiss.read_index("faiss_index/index.faiss")
+    with open("faiss_index/metadata.pkl", "rb") as f:
+        metadata = pickle.load(f)
     # if not os.path.exists("faiss_index/index.faiss"):
     #     build_faiss_index(csv_path)
     # else:
@@ -23,7 +29,7 @@ def run_agent():
             break
 
         print("\nThinking...")
-        insight, x, y = ask_agent(user_q, df)
+        insight, x, y = ask_agent(user_q, df, index, metadata)
 
         print("\nInsight:\n" + insight)
 
