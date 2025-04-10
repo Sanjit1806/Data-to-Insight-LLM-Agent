@@ -12,7 +12,7 @@ from plot_generator import generate_custom_plot
 st.set_page_config(page_title="Data-to-Insight Agent", layout="wide")
 
 st.title("📊 Data-to-Insight AI Agent")
-st.markdown("Upload a CSV, ask your question, and let the AI show you insights + plots.")
+st.markdown("Upload a CSV, ask your question, and let the Agent show you insights + plots.")
 
 # Upload CSV
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
