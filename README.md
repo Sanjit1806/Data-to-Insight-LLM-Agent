@@ -48,9 +48,9 @@ An LLM agent that answers user questions from CSV files using semantic search, F
 
 ---
 
-## 📸 Screenshots
+## Interface
 
-_Add screenshots of the app interface and sample plots here (optional)_
+<img src="Output_Screenshots/CSV_Indexing.png" alt="Image" width="650"/>
 
 ---
 
@@ -78,9 +78,9 @@ _Add screenshots of the app interface and sample plots here (optional)_
 
 5. Run the Streamlit App
 
-  ```bash
-  streamlit run app.py
-  ```
+   ```bash
+   streamlit run app.py
+   ```
 
 - Upload a CSV file
 - Ask any question like:
@@ -94,7 +94,7 @@ _Add screenshots of the app interface and sample plots here (optional)_
 
 ## Technologies Used
 
-- **Hugging Face Mistral-7B**: LLM
+- **Mistral-7B**: Pre-trained LLM
 - **FAISS**: Vector Database
 - **MiniLM (sentence-transformers)**: Vector Embedding
 - **Streamlit**: Web UI
