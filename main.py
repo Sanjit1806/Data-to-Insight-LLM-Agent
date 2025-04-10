@@ -2,6 +2,7 @@
 import faiss
 import pickle
 import pandas as pd
+
 from vector_store import build_faiss_index
 from query_agent import ask_agent
 from plot_generator import generate_custom_plot
