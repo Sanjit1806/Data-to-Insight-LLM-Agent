@@ -31,3 +31,10 @@ print(text_chunks[0])
 # res = requests.get("https://huggingface.co/api/whoami-v2", headers=headers)
 # print(res.json())
 
+
+# api token tryouts
+# import os
+# from dotenv import load_dotenv
+
+# load_dotenv()
+# print("Current token in use:", os.getenv("HF_TOKEN")[:10] + "...")
