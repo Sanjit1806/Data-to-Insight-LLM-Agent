@@ -1,6 +1,6 @@
 # 📊 Data-to-Insight AI Agent
 
-An LLM agent that answers user questions from CSV files using semantic search, FAISS, and Mistral LLM which returns both natural language insights and personalized plots.
+An LLM agent that answers user questions from CSV files using semantic search, FAISS, and Gemini/Mistral LLM which returns both natural language insights and personalized plots.
 
 ---
 
@@ -29,7 +29,7 @@ An LLM agent that answers user questions from CSV files using semantic search, F
 
 - **CSV Upload**: Accepts specific order data CSV as a knowledge base.
 - **Semantic Search**: Uses MiniLM embeddings + FAISS to find relevant rows.
-- **LLM Answering**: Uses Mistral-7B  to generate contextual answers.
+- **LLM Answering**: Uses Gemini or Mistral LLM to generate contextual answers.
 - **Dynamic Plotting**: Automatically picks the best Y-axis column based on the question.
 - **Streamlit UI**: Ask questions, see insights, and view plots in one place.
 
@@ -45,6 +45,7 @@ An LLM agent that answers user questions from CSV files using semantic search, F
   - `matplotlib`
   - `requests`
   - `python-dotenv`
+  - `langchain_google_genai`
 
 ---
 
@@ -70,10 +71,10 @@ An LLM agent that answers user questions from CSV files using semantic search, F
 3. Download the MiniLM model:
    Place `all-MiniLM-L6-v2` into the `./models/` folder manually or via `sentence-transformers`.
 
-4. Add your Hugging Face API key:
+4. Add your Gemini or Hugging Face API key:
    Create a `.env` file:
    ```env
-   HF_TOKEN=your_huggingface_token_here
+   API_TOKEN=your_API_token_here
    ```
 
 5. Run the Streamlit App
@@ -94,7 +95,8 @@ An LLM agent that answers user questions from CSV files using semantic search, F
 
 ## Technologies Used
 
-- **Mistral-7B**: Pre-trained LLM
+- **Mistral-7B**: Pre-trained LLM (depreciated)
+- **Gemini 2.0 Flash**: Pre-trained LLM
 - **FAISS**: Vector Database
 - **MiniLM (sentence-transformers)**: Vector Embedding
 - **Streamlit**: Web UI
