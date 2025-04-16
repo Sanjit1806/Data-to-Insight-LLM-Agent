@@ -37,6 +37,8 @@ def choose_y_column_from_question(question, df_columns):
         return "Status" if "Status" in df_columns else None
     elif any(word in q for word in ["quantity", "order", "most", "number"]):
         return "Quantity" if "Quantity" in df_columns else None
+    elif any(word in q for word in ["category", "categories", "group"]):
+        return "Category" if "Category" in df_columns else None
     else:
         return "Quantity" if "Quantity" in df_columns else None  # fallback
 
