@@ -9,13 +9,13 @@ from vector_store import build_faiss_index
 from query_agent import ask_agent
 from plot_generator import generate_custom_plot
 
-st.set_page_config(page_title="Data-to-Insight Agent", layout="wide")
+st.set_page_config(page_title="Data-to-Insight Agent v1", layout="wide")
 
-st.title("📊 Data-to-Insight AI Agent")
+st.title("📊 Data-to-Insight Agent v1")
 st.markdown("Upload a CSV, ask your question, and let the Agent show you insights + plots.")
 
 # Upload CSV
-uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
+uploaded_file = st.file_uploader("", type=["csv"])
 
 if uploaded_file is not None:
     if "indexed" not in st.session_state:
@@ -65,3 +65,6 @@ if uploaded_file is not None:
             st.image(plot_path, use_container_width=True)
         else:
             st.warning("⚠️ No valid plot generated for this question.")
+
+else:
+    st.info("Please upload a file")
