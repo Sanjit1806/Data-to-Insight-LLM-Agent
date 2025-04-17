@@ -1,4 +1,4 @@
-# 📊 Data-to-Insight AI Agent
+# 📊 Data-to-Insight AI Agent v1
 
 An LLM agent that answers user questions from CSV files using semantic search, FAISS, and Gemini/Mistral LLM which returns both natural language insights and personalized plots.
 
@@ -7,7 +7,7 @@ An LLM agent that answers user questions from CSV files using semantic search, F
 ## Project Structure
 
 ```bash
-📂 data-to-insight-agent
+📂 data-to-insight-agent-v1
 ├── 📄 app.py                 # Streamlit interface
 ├── 📄 main.py                # CLI interface
 ├── 📄 vector_store.py        # FAISS embedding
